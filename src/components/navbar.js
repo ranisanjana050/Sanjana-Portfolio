@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { FaBars, FaGithub, FaTimes } from 'react-icons/fa';
+import { FaBars , FaTimes } from 'react-icons/fa';
 import { Mobilenav } from "./mobilenav";
 import { Bio } from "../data/constants";
 import { motion } from "framer-motion";

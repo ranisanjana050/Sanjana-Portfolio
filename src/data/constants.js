@@ -1,14 +1,9 @@
 import image3 from "../Image/Dev-Detective.png"
 import image1 from "../Image/Password-Generator.png"
 import image2 from "../Image/Weather-App.png"
-import image4 from "../Image/NetChillin1.png"
-import image5 from "../Image/Food App1.png"
 import image6 from "../Image/vercel-icon.png"
 import image7 from "../Image/git-icon.png"
-import image8 from "../Image/Web-Summarizer.png"
-import image9 from "../Image/fact.png"
 import image10 from "../Image/LineUp.png"
-import image11 from "../Image/Secure-valut.png"
 
 export const Bio = {
     name: "Sanjana Singh",

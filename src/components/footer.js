@@ -1,12 +1,8 @@
-import React, { useState } from "react";
-import { Bio } from "../data/constants";
-import image from "../Image/astro1.png";
-import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { SiLeetcode,SiGithub } from "react-icons/si";
-import { Message2 } from "./message2";
 
+import { Bio } from "../data/constants";
+import { FaLinkedin } from "react-icons/fa";
+import { SiGithub } from "react-icons/si";
 export const Footer = () => {
-  const [nav ,setNav]=useState(false);
   return (
     <div
     className="relative flex  flex-col justify-center items-center w-full mt-12">
@@ -29,7 +25,7 @@ export const Footer = () => {
         </div> */}
 
         <div className="hover:bg-blue-800  transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
-          <a href={Bio.linkedin} target="_blank">
+          <a href={Bio.linkedin} target="_blank" rel='noreferrer'>
             <FaLinkedin size={25} color="white" />
           </a>
         </div>
@@ -53,7 +49,7 @@ export const Footer = () => {
         </div> */}
 
         <div className="hover:bg-gradient-to-r from-yellow-400 via-blue-700 to-red-600  transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
-          <a href={Bio.github} target="_blank">
+          <a href={Bio.github} target="_blank" rel='noreferrer'>
             <SiGithub size={25} color="white" />
           </a>
         </div>

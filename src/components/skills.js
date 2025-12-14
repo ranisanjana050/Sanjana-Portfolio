@@ -1,11 +1,8 @@
-import React, {  useState } from "react";
-import image1 from "../Image/astro2.png"
-import { Message } from "./message";
+
 import { SkillsCard } from "./skillsCard";
 
 
 export const Skills = () => {
-    const [nav ,setNav]=useState(false);
    
   return (
     <div

@@ -1,13 +1,10 @@
 import React, { useState } from 'react'
 import { Projectcard } from './projectcard'
-import image from "../Image/astro1.png"
 import { projects } from '../data/constants'
-import { Message1 } from './message1'
 
 export const Project = () => {
   const [filtered, setFilter] = useState(projects);
   const [project] = useState(projects);
-  const [nav, setNav] = useState(false);
   const [active, setActive] = useState("all");
 
   function allProject() {
