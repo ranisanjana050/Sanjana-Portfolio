@@ -1,6 +1,7 @@
 import styled ,{ ThemeProvider } from 'styled-components';
 import {darkTheme} from './utils/theme'
 import './App.css'
+import { Analytics } from "@vercel/analytics/react"
 // import { BrowserRouter as Router } from 'react-router-dom';
 import { Navbar } from './components/navbar';
 import { Skills } from './components/skills';
@@ -54,6 +55,7 @@ function App() {
             </Wrapper>
             <Footer/>
             <SpeedInsights/>
+            <Analytics/>
         </Body>
       
     </ThemeProvider>
