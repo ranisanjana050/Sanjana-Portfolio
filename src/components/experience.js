@@ -70,7 +70,7 @@ export const Experience = () => {
                       key={i}
                       className="border border-slate-500/30 bg-[#1a1a2e] bg-opacity-60 p-1 px-2 flex flex-col items-center rounded-lg gap-2 shadow-sm"
                     >
-                      <img src={item.image} alt="" className="w-[16vw] rounded-lg aspect-16/9" />
+                      <img src={item.image} alt="" className="w-[40vw] sm:w-[20] md:w-[16vw] rounded-lg aspect-16/9" />
                       <p className="text-white text-[10px]">{item.name}</p>
                     </div>
                     </a>
