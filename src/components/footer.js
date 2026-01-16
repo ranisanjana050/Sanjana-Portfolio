@@ -48,7 +48,7 @@ export const Footer = () => {
           </a>
         </div> */}
 
-        <div className="hover:bg-gradient-to-r from-yellow-400 via-blue-700 to-red-600  transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
+        <div className="hover:bg-black transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
           <a href={Bio.github} target="_blank" rel='noreferrer'>
             <SiGithub size={25} color="white" />
           </a>
