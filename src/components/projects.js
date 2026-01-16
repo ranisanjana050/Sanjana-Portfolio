@@ -38,14 +38,14 @@ export const Project = () => {
           >
             ALL
           </button>
-          {/* <button
+          <button
             onClick={() => filterProject("web")}
             className={`px-4 py-2 rounded-full transition-all font-semibold border-l border-[#854CE6]
               ${active === "web" ? "bg-[#854CE6] text-white shadow" : "hover:bg-[#854CE6]/20 hover:text-yellow-500"}
             `}
           >
             WEB APP'S
-          </button> */}
+          </button>
           {/* <button
             onClick={() => filterProject("android app")}
             className={`px-4 py-2 rounded-full transition-all font-semibold border-l border-[#854CE6]

@@ -20,7 +20,7 @@ export const Projectcard = ({ project }) => {
             </a>
             <h1 className=' text-2xl text-slate-300'>{project.title}</h1>
             <p className='text-xs mb-3 text-slate-500 mt-1 '>{project.date}</p>
-            <div className='flex flex-wrap gap-2 w-[18rem] mb-2 text-[#a277ec] '>
+            <div className='flex flex-wrap gap-2 w-[16rem] md:w-[17rem] mb-2 text-[#a277ec] '>
               {project.tags.map((tag) => (
                 <div className='flex bg-slate-600/20 border border-slate-600/40 rounded-3xl px-1 py-0.5 items-center '>
                   <img src={tag.image} alt="" className='w-4 h-4 rounded-full border border-purple-600/40 inline-block mr-1' />
@@ -28,7 +28,7 @@ export const Projectcard = ({ project }) => {
                 </div>
               ))}
             </div>
-            <p className='mb-2 text-xs text-slate-500'>
+            <p className='mb-2 text-sm text-slate-500'>
               {project.description}
             </p>
             <div className='flex gap-10 mt-5'>
