@@ -62,6 +62,20 @@ export const Experience = () => {
                      </div>
                   ))}
                 </ul>
+                <p className="pt-2 font-bold text-white">Certifications</p>
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {experience.certificates?.map((item, i) => (
+                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                    <div
+                      key={i}
+                      className="border border-slate-500/30 bg-[#1a1a2e] bg-opacity-60 p-1 px-2 flex flex-col items-center rounded-lg gap-2 shadow-sm"
+                    >
+                      <img src={item.image} alt="" className="w-[16vw] rounded-lg aspect-16/9" />
+                      <p className="text-white text-[10px]">{item.name}</p>
+                    </div>
+                    </a>
+                  ))}
+                </div>
                 <p className="pt-2 font-bold text-white">Tools</p>
                 <div className="flex flex-wrap gap-2 mt-2">
                   {experience.skills?.map((item, i) => (
@@ -70,7 +84,7 @@ export const Experience = () => {
                       className="border border-slate-500 bg-[#1a1a2e] bg-opacity-60 p-1 px-2 flex items-center rounded-full gap-2 shadow-sm"
                     >
                       <img src={item.image} alt="" className="w-6 h-6 rounded-full aspect-square" />
-                      <p className="text-white text-xs md:text-sm">{item.name}</p>
+                      <p className="text-white text-xs">{item.name}</p>
                     </div>
                   ))}
                 </div>

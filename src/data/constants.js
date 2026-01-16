@@ -4,6 +4,7 @@ import image2 from "../Image/Weather-App.png"
 import image6 from "../Image/vercel-icon.png"
 import image7 from "../Image/git-icon.png"
 import image10 from "../Image/LineUp.png"
+import image8 from "../Image/CCNA.jpeg"
 
 export const Bio = {
     name: "Sanjana Singh",
@@ -29,25 +30,10 @@ export const Bio = {
     {
       title: "Frontend",
       skills: [
-        // {
-        //   name: "React Js",
-        //   image:
-        //     "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-        // },
-        
-        // {
-        //   name: "Redux",
-        //   image:
-        //     "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-        // },
         {
           name: "HTML",
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
         },
-        // {
-        //   name:"Angular",
-        //   image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Angular_gradient.png/1200px-Angular_gradient.png"
-        // },
         {
           name: "CSS",
           image:
@@ -57,6 +43,10 @@ export const Bio = {
           name: "JavaScript",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "React JS",
+          image:"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
         // {
         //   name: "TypeScript",
@@ -231,6 +221,13 @@ export const Bio = {
           image:"https://images.seeklogo.com/logo-png/3/1/cisco-logo-png_seeklogo-30674.png"
         },
       ],
+      certificates:[
+        {
+          name:"CISCO Certified Network Associate (CCNA)",
+          image:image8,
+          link:"https://drive.google.com/file/d/1H6R1kO77wqaPXTcexo0Ify4rEesU_2qk/view?usp=sharing"
+        },
+      ],
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     // {
@@ -334,14 +331,25 @@ export const Bio = {
       id: 2,
       title: "Github Detective",
       date: "Jun 2023 - June 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 max-h-full p-6 w-[18rem] h-[39rem] rounded-lg m-5 text-white  lg:w-[22rem] xl:w-[25rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 max-h-full p-6 w-[18rem] h-[32rem] rounded-lg m-5 text-white  lg:w-[20rem] xl:w-[22rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "This website shows the profile of Github users by entering the username user want to search.",
       image:image3,
       tags: [
-        "HTML ",
-        "CSS",
-        "JavaScript",
+        {
+          name: "HTML",
+          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
       ],
       category: "web",
       github: "https://github.com/ranisanjana050/Dev-Detective-main",
@@ -351,13 +359,26 @@ export const Bio = {
       id: 3,
       title: "Password Generator",
       date: "Apr 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 max-h-full p-6 w-[18rem] h-[39rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 max-h-full p-6 w-[18rem] h-[32rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[20rem] xl:w-[22rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "A webpage where we can genrate random password, we can select length of the password as per our need.",
       image:image1,
-      tags: ["HTML ",
-      "CSS",
-      "JavaScript",],
+      tags: [
+       {
+          name: "HTML",
+          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+    ],
       category: "web",
       github: "https://github.com/ranisanjana050/Password-Generator-main",
       webapp: "https://password-provider007.netlify.app/",
@@ -367,15 +388,26 @@ export const Bio = {
       id: 7,
       title: "Todo App",
       date: "May 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 max-h-full p-6 w-[18rem] h-[39rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 max-h-full p-6 w-[18rem] h-[32rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[20rem] xl:w-[22rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, and delete. The app is fully responsive and uses local storage to retain tasks across sessions.",
       image:image10,
       tags: [
-        "React JS ",
-        "Tailwind",
-        "CSS",
-        "JavaScript",
+        {
+          name: "TailwindCSS",
+          image:
+            "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
       ],
       category: "web",
       github: "https://github.com/ranisanjana050/LineUp-main",
@@ -385,14 +417,25 @@ export const Bio = {
       id: 4,
       title: "Weather App",
       date: "May 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 max-h-full p-6 w-[18rem] h-[39rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 max-h-full p-6 w-[18rem] h-[32rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[20rem] xl:w-[22rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "Search the weather conditions of any city using city name,Weather info is fetched using OpenWeather Api.",
       image:image2,
       tags: [
-        "HTML ",
-        "CSS",
-        "JavaScript",
+        {
+          name: "HTML",
+          image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        },
+        {
+          name: "CSS",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
       ],
       category: "web",
       github: "https://github.com/ranisanjana050/weather-app",

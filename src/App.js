@@ -46,6 +46,7 @@ function App() {
     
         <Navbar/>
         <Body>
+          
           <Herosection  />
             <Wrapper>
               <Experience/>
