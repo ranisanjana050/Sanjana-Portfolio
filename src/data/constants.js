@@ -353,7 +353,7 @@ export const Bio = {
       ],
       category: "web",
       github: "https://github.com/ranisanjana050/Dev-Detective-main",
-      webapp: "https://github-profile-detective.netlify.app/",
+      webapp: "https://dev-detective-main.vercel.app/",
     },
     {
       id: 3,
